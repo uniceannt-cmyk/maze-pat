@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maze App</title>
+  <link rel="stylesheet" href="maze-style.css">
+</head>
+<body>
+  <h1>Maze App</h1>
+  
+  <canvas id="mazeCanvas"></canvas>
+  <p id="instruction">Choose your device:</p>
+
+  <div id="deviceChoice">
+    <button onclick="setDevice('laptop')">Laptop</button>
+    <button onclick="setDevice('phone')">Phone</button>
+  </div>
+
+  <button onclick="generateMaze()">New Maze</button>
+
+  <script src="maze-script.js"></script>
+</body>
+</html>
